@@ -11,6 +11,14 @@ body {
     background: red;
 }
 
-img {
+.apple {
     width: 150px;
+    color: white;
+}
+
+.apples {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    flex-wrap: wrap;
 }
