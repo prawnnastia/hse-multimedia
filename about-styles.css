@@ -41,7 +41,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: inherit;
-    filter: drop-shadow(0 0 10px rgba(255, 76, 174, 0.5));     
+    filter: drop-shadow(0 0 10px rgba(255, 76, 174, 0.5));    
+     
 }
 
 .apples {
