@@ -8,12 +8,14 @@ var appleButton = document.getElementById ('apple-btn');
 appleButton.addEventListener("click", function () {
     var newApple = document.createElement("div");
     newApple.classList.add("apple");
-    newApple.style.filter = 'drop-shadow(0 0 8px ' + randomColor() + ')';
+    newApple.style.filter = 'drop-shadow(0 0 10px ' + randomColor() + ')';
 
     var appleBox = document.querySelector('.apples')
     appleBox.appendChild(newApple);
 
     newApple.scrollIntoView({ block: 'start', behavior: 'smooth' });
+
+    updateCounter()
 });
 
 
@@ -25,6 +27,8 @@ removeAppleButton.addEventListener("click", function () {
         var firstApple = apples[0];
         firstApple.remove(); 
     }
+
+    updateCounter()
 });
 
 function randomNumber() {
@@ -39,3 +43,7 @@ function randomColor() {
 
 }
 
+function updateCounter(){
+    var count = document.querySelectorAll (".apples > *").length
+    document.getElementById("counter").innerText = count;
+}

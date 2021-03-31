@@ -17,7 +17,7 @@ body {
 
 .button-1 {
     font-size: 20px;
-    filter: drop-shadow(0 0 6px violet); 
+    filter: drop-shadow(0 0 6px blueviolet); 
     border: none;
     fill: transparent;
     background-color: white;
@@ -26,7 +26,7 @@ body {
 
 .button-2 {
     font-size: 20px;
-    filter: drop-shadow(0 0 6px violet); 
+    filter: drop-shadow(0 0 6px blueviolet); 
     border: none;
     fill: transparent;
     background-color: white;
@@ -37,9 +37,9 @@ body {
     height: 100px;
     width: 1080px;
     font-size: 50px;
-    color: violet;
+    color: blueviolet;
     background-color: rgb(255, 255, 255);
-    filter: drop-shadow(0 0 6px violet);
+    filter: drop-shadow(0 0 6px blueviolet);
     border: none;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -54,7 +54,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: inherit;
-    filter: drop-shadow(0 0 8px violet);   
+    filter: drop-shadow(0 0 10px blueviolet);   
      
 }
 
@@ -81,4 +81,9 @@ body {
 .buttons {
     position: fixed;
     margin-top: 150px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: stretch;
 }
