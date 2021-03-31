@@ -8,7 +8,7 @@ var appleButton = document.getElementById ('apple-btn');
 appleButton.addEventListener("click", function () {
     var newApple = document.createElement("div");
     newApple.classList.add("apple");
-    newApple.style.filter = 'drop-shadow(0 0 10px ' + randomColor() + ')';
+    newApple.style.filter = 'drop-shadow(0 0 8px ' + randomColor() + ')';
 
     var appleBox = document.querySelector('.apples')
     appleBox.appendChild(newApple);

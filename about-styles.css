@@ -17,24 +17,34 @@ body {
 
 .button-1 {
     font-size: 20px;
-    filter: drop-shadow(0 0 10px rgba(255, 76, 174, 0.5)); 
+    filter: drop-shadow(0 0 6px violet); 
     border: none;
     fill: transparent;
     background-color: white;
+    border-radius: 20px;
 }
 
+.button-2 {
+    font-size: 20px;
+    filter: drop-shadow(0 0 6px violet); 
+    border: none;
+    fill: transparent;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
 .main-button {
     height: 100px;
     width: 1080px;
     font-size: 50px;
-    color: white;
-    filter: drop-shadow(0 0 10px rgba(255, 76, 174, 0.5)); 
+    color: violet;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 6px violet);
     border: none;
-    fill: transparent;
-    background-color:rgba(255, 255, 255, 0.5);
     margin-top: 20px;
     margin-bottom: 20px;
     position: fixed;
+    border-radius: 99999px;
 }
 
 .apple {
@@ -44,7 +54,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: inherit;
-    filter: drop-shadow(0 0 10px rgba(255, 76, 174, 0.5));   
+    filter: drop-shadow(0 0 8px violet);   
      
 }
 
@@ -54,11 +64,14 @@ body {
     flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
+    z-index: -1;
 }
 
 .shadow {
-    filter: drop-shadow(0 0 10px rgba(255, 76, 174, 0.5)); 
+    filter: drop-shadow(0 0 10px   chocolate); 
     width: 100px;
+    background-color: violet
 }
 
 .blue-bg {
@@ -68,8 +81,4 @@ body {
 .buttons {
     position: fixed;
     margin-top: 150px;
-}
-
-.apples-2 {
-    margin-top: 200px;
 }
