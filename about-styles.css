@@ -3,6 +3,8 @@ body {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     transform: background 0.3s ease;
+    scroll-behavior: smooth;
+    
 }
 
 .circle {
@@ -32,6 +34,7 @@ body {
     background-color:rgba(255, 255, 255, 0.5);
     margin-top: 20px;
     margin-bottom: 20px;
+    position: fixed;
 }
 
 .apple {
@@ -41,7 +44,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: inherit;
-    filter: drop-shadow(0 0 10px rgba(255, 76, 174, 0.5));    
+    filter: drop-shadow(0 0 10px rgba(255, 76, 174, 0.5));   
      
 }
 
@@ -50,6 +53,7 @@ body {
     justify-content: stretch;
     flex-wrap: wrap;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .shadow {
@@ -59,4 +63,13 @@ body {
 
 .blue-bg {
     background-color: blueviolet;
+}
+
+.buttons {
+    position: fixed;
+    margin-top: 150px;
+}
+
+.apples-2 {
+    margin-top: 200px;
 }

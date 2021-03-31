@@ -12,6 +12,8 @@ appleButton.addEventListener("click", function () {
 
     var appleBox = document.querySelector('.apples')
     appleBox.appendChild(newApple);
+
+    newApple.scrollIntoView({ block: 'start', behavior: 'smooth' });
 });
 
 
@@ -36,3 +38,4 @@ function randomColor() {
     return "rgb(" + r + "," + g + "," + b + ")"; 
 
 }
+
